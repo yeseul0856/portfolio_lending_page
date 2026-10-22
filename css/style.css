@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ------ */
+.hero {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 85%;
+  margin: 0 auto;
+}
+
+/* 로고 */
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.logo h1 {
+  font-size: 9rem;
+  font-weight: 900;
+  color: #111;
+  line-height: 1;
+}
+
+.logo span {
+  margin: 0 15px;
+}
+
+/* 검색창 */
+
+.search_wrap {
+  position: relative;
+}
+
+.search_input {
+  width: 100%;
+
+  border: none;
+  border-bottom: 3px solid #111;
+
+  background-color: #cfd4d6;
+
+  padding: 18px 18px 18px 70px;
+
+  font-size: 2rem;
+  outline: none;
+}
+
+.search_input::placeholder {
+  color: #c0c0c0;
+}
+
+.search_wrap i {
+  position: absolute;
+
+  left: 20px;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  font-size: 2rem;
+  color: #111;
+}
+
+/* 하단 */
+
+.hero_bottom {
+  margin-top: 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slogan {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #444;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+
+  transition: 0.2s;
+}
+
+.menu a:hover {
+  color: #111;
+}
